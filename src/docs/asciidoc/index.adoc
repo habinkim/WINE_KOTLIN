@@ -1,0 +1,127 @@
+= WINE REST API Documentation
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[Region-API]]
+== Region API
+
+=== 지역 리스트 조회 API
+
+operation::region-list-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 지역 상세 조회 API
+
+operation::region-detail-case1-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+operation::region-detail-case2-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+=== 지역 생성 API
+
+operation::region-create-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 지역 수정 API
+
+operation::region-update-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 지역 삭제 API
+
+operation::region-delete-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+[[Grape-API]]
+== Grape API
+
+=== 포도 리스트 조회 API
+
+operation::grape-list-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 포도 상세 조회 API
+
+operation::grape-detail-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+=== 포도 생성 API
+
+operation::grape-create-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 포도 수정 API
+
+operation::grape-update-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 포도 삭제 API
+
+operation::grape-delete-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+=== 포도 품종 비율 생성 API
+
+operation::grape-share-create-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+[[Importer-API]]
+== Importer API
+
+=== 수입사 리스트 조회 API
+
+operation::importer-list-success[snippets='curl-request,http-request,http-response,query-parameters,response-fields']
+
+=== 수입사 상세 조회 API
+
+operation::importer-detail-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+=== 수입사 생성 API
+
+operation::importer-create-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 수입사 수정 API
+
+operation::importer-update-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 수입사 삭제 API
+
+operation::importer-delete-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+[[Winery-API]]
+== Winery API
+
+=== 와이너리 리스트 조회 API
+
+operation::winery-list-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 와이너리 상세 조회 API
+
+operation::winery-detail-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+=== 와이너리 생성 API
+
+operation::winery-create-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 와이너리 수정 API
+
+operation::winery-update-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 와이너리 삭제 API
+
+operation::winery-delete-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+[[Wine-API]]
+== Wine API
+
+=== 와인 리스트 조회 API
+
+operation::wine-list-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 와인 상세 조회 API
+
+operation::wine-detail-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
+
+=== 와인 생성 API
+
+operation::wine-create-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 와인 수정 API
+
+operation::wine-update-success[snippets='curl-request,http-request,http-response,request-fields,response-fields']
+
+=== 와인 삭제 API
+
+operation::wine-delete-success[snippets='curl-request,http-request,http-response,path-parameters,response-fields']
